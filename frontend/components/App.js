@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
+
 import TextGenerator from './TextGenerator'
 
 function App() {
@@ -20,9 +21,8 @@ function App() {
             })
         }
 
-      fetchRequest(url)
-
-        /*
+      //fetchRequest(url)
+        
       setData({
         "copyright":"NASA, ESA, and the Hubble Heritage Team (STScI/AURA)",
 
@@ -37,9 +37,10 @@ function App() {
         "url":"https://bloominstituteoftechnology.github.io/img/pillars-of-creation.png",
       
         "service_version":"v1"})
-        */
+        
     }, [])
   }
+  
 
   FetchData(URL)
   
